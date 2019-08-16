@@ -26,7 +26,7 @@ import org.quartz.Trigger;
 import org.quartz.TriggerKey;
 import org.seedstack.scheduler.fixtures.ProgrammaticFiredTask;
 import org.seedstack.seed.SeedException;
-import org.seedstack.seed.it.SeedITRunner;
+import org.seedstack.seed.testing.junit4.SeedITRunner;
 
 import com.google.common.collect.ImmutableMap;
 

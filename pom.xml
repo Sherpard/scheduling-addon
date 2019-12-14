@@ -24,7 +24,7 @@
 
     <properties>
         <seed.version>3.9.0</seed.version>
-        <quartz.version>2.3.1</quartz.version>
+        <quartz.version>2.3.2</quartz.version>
 
         <compatibility.version>3.0.0</compatibility.version>
 

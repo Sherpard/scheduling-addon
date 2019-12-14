@@ -26,7 +26,7 @@ class TaskDelegateJob implements Job {
         this.task = task;
     }
 
-    @SuppressWarnings({"unchecked", "ThrowableResultOfMethodCallIgnored"})
+    @SuppressWarnings({"ThrowableResultOfMethodCallIgnored"})
     @Override
     public void execute(JobExecutionContext context) throws JobExecutionException {
         final SchedulingContext schedulingContext = new SchedulingContextImpl(context);
